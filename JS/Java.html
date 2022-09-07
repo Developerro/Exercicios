@@ -1,0 +1,42 @@
+<!doctype html>
+
+<html>
+
+<head>
+<title>Introdução ao Javascript</title>
+<meta charset = "UTF-8">
+</head>
+
+<body>
+
+ <script>
+var n1, n2, n3, n4, divisao, subtracao, multiplicacao, soma;
+
+n1 = window.prompt("Informe o primeiro número:")
+n2 = window.prompt("Informe o segundo número: ")
+n3 = window.prompt("Informe o terceiro número: ")
+n4 = window.prompt("Informe o quarto número: ")
+
+n1 = parseFloat(n1);
+n2 = parseFloat(n2);
+n3 = parseFloat(n3);
+n4 = parseFloat(n4);
+
+
+soma = n1 + n2 + n3 + n4;
+subtracao = n1 - n2 - n3 - n4;
+multiplicacao = n1 * n2 * n3 * n4;
+divisao = n1 / n2 / n3 / n4;
+
+document.write('<h1>' + "O resultado da soma desses 4 números é " + soma + '<h1>');
+
+document.write('<h1>' + "O resultado da subtração desses 4 números é " + subtracao + '<h1>');
+
+document.write('<h1>' + "O resultado da multiplicação desses 4 números é " + multiplicacao + '<h1>');
+
+document.write('<h1>' + "O resultado da divisão desses 4 números é " + divisao + '<h1>');
+
+
+ </script>
+</body>
+</html>
